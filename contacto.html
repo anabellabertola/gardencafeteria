@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banner con efecto ondeado y controles</title>
+  <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+
+    <header>
+        <img class="logo-1" src="img/logo.png" alt="" />
+        <div class="menu container">
+    
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+              <img src="img/menu.png" class="menu-icono" alt="" />
+            </label>
+            <nav class="navbar">
+              <div class="menu-1">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menues.html">Menu</a></li>
+                    <li><a href="reservacion.html">Reservacion</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                  </ul>
+              </div>
+    
+            <div class="boton-reservacion">
+                <a href="reservacion.html">
+                    <button class="btn-reservacion">RESERVACION</button>
+                </a>
+            </div>
+            </nav>
+          </div>
+    </header>
+
+
+<div class="banner">
+    <div class="titulos">
+        <h2 class="titulo">CONTACTO</h2>
+    </div>
+</div>
+
+<div class="contacto">
+    <div class="titulo-contacto">
+        <div class="divider-contacto"></div>
+        <h1>PONERSE EN CONTACTO</h1>
+        <h2>Informacion de contacto</h2>
+        <p>Por favor, contáctenos para ayudarlo</p>
+    </div>
+</div>
+
+<section class="destacado-contacto">
+    <div class="box">
+        <img class="img-box" src="img/email.png" alt="">
+        <h2>Email</h2>
+        <p>codepassweb@hotmail.com</p>
+    </div>
+    <div class="box">
+        <img class="img-box" src="img/phone.png" alt="">
+        <h2>Telefono</h2>
+        <p>543412294863</p>
+    </div>
+    <div class="box">
+        <img class="img-box" src="img/mapa.png" alt="">
+        <h2>Ubicacion</h2>
+        <p>España</p>
+    </div>
+</section>
+
+<div class="formulario">
+    <div class="titulo-formulario">
+        <div class="divider-formulario"></div>
+        <h1>FORMULARIO DE CONTACTO</h1>
+        <h2>Escribemos un mensaje</h2>
+        <p>Completa el formulario para poder comuncarnos y resolver todas tus consultas</p>
+    </div>
+</div>
+
+<form action="mailto:codepassweb@hotmail.com" method="POST" class="form-contacto"> 
+    <input type="text" name="nombre" placeholder="Nombre">
+    <input type="text" name="nombre" placeholder="Apellido">
+    <input type="text" name="email" placeholder="Email">
+    <input type="tel" name="telefono" placeholder="Telefono">
+    <textarea type="text" name="mensaje" placeholder="Mensaje"></textarea>
+    <input type="submit" class="btn-boton" placeholder="Enviar">
+</form>
+
+
+<section class="section-local">
+    <div class="txt-local">
+            <div class="divider-local"></div>
+            <h1 id="local">LOCAL</h1>
+            <h2>¡Los invitamos a visitar nuestro local!</h2>
+            <p>Disfrute de comodidades y una experiencia única en nuestro local</p>
+                <a href="https://maps.app.goo.gl/MBnaD4RRQW5xF3ETA">
+                    <button class="btn-local">UBICACION</button>
+                </a>
+        </div>
+        <div class="txt-local">
+            <img class="img-local" src="img/local.jpg" alt="">
+        </div>
+</section>
+
+<footer>
+    <div class="divider-footer"></div>
+
+    <div class="footer-sesion">
+        <div class="sesion">
+            <div class="titulo-sesion">
+                <h1>Sobre nosotros</h1>
+                <p>Somos una acogedora mini empresa especializada en cafetería y chocolatería. 
+                    ¡Descubre nuestro mundo de sabores y aromas que te cautivarán desde el primer bocado!
+                </p>
+                <a href="team.html"><button>LEER MÁS</button></a>
+            </div>
+        </div>
+        <div class="sesion">
+            <div class="titulo-sesion">
+                <h1>Información de contacto</h1>
+                <p>3412294863</p>
+                <p>codepassweb@hotmail.com</p>
+                <p>España</p>
+                <a href="contacto.html"><button>LEER MÁS</button></a>
+            </div>
+        </div>
+        <div class="sesion">
+            <div class="titulo-sesion">
+                <h1>Galería</h1>
+            </div>
+            <div class="img-footer">
+                <img class="imagen-1" src="img/burguer2.jpg" alt="">
+                <img class="imagen-2" src="img/pasta.jpg" alt="">
+                <img class="imagen-3" src="img/burguer.jpg" alt="">
+            </div>
+            <a href="menues.html"><button>LEER MÁS</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="divider-final"></div>
+    <div class="copyright">
+        <div class="descripcion">
+            <p>Maria Luzano &copy; 2022 - Todos los derechos reservados. By CODEPASS</p>
+        </div>
+        <a href="contacto.html"><button>VOLVER AL PRINCIPIO</button></a>
+    </div>
+</footer>
+<script src="contacto.js"></script>
+</body>
+</html>

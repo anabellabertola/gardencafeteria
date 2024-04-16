@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banner con efecto ondeado y controles</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <img class="logo-1" src="img/logo.png" alt="" />
+    <div class="menu container">
+
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+          <img src="img/menu.png" class="menu-icono" alt="" />
+        </label>
+        <nav class="navbar">
+          <div class="menu-1">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menues.html">Menu</a></li>
+                <li><a href="reservacion.html">Reservacion</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+              </ul>
+          </div>
+
+        <div class="boton-reservacion">
+            <a href="reservacion.html">
+                <button class="btn-reservacion">RESERVACION</button>
+            </a>
+        </div>
+        </nav>
+    </div>
+
+</header>
+
+<section class="ban-container">
+<div class="banner">
+    <div class="fondo-1">
+        <div class="slide active">
+        <div class="texto">
+            <div class="divider-1"></div>
+        <h1 class="titulo-garden">Bienvenidos a Garden</h1>
+        <h2 class="subtitulo-garden">CAFÉ & CHOCOLATE</h2>
+        <a href="reservacion.html">
+            <button class="btn-border">RESERVAR UNA MESA</button> 
+        </a>
+        <a href="menues.html">
+            <button class="btn-texto">ABRIR MENU</button>
+        </a>
+        </div>
+        <img src="img/caffegrano.jpg">
+
+    </div>
+    </div>
+    <div class="fondo-2">
+        <div class="slide">
+            <div class="texto">
+        <div class="divider-2"></div>
+        <h1 class="titulo-garden">HOLA!</h1>
+        <h2 class="subtitulo-garden">RESERVA UNA MESA</h2>
+        <a href="reservacion.html">
+            <button class="btn-border">RESERVAR UNA MESA</button> 
+        </a>
+        <a href="menues.html">
+            <button class="btn-texto">ABRIR MENU</button>
+        </a>
+    </div>
+    <img src="img/moza2.webp">
+
+</div>
+
+</div>
+    <div class="fondo-3">
+        <div class="slide">
+            <div class="texto">
+        <div class="divider-3"></div>
+        <h1 class="titulo-garden">DULCE GUSTO</h1>
+        <h2 class="subtitulo-garden">VISITA NUESTRO BLOG</h2>
+        <a href="blog.html">
+            <button class="btn-border">IR AL BLOG</button>
+        </a>
+        <a href="menues.html">
+            <button class="btn-texto">ABRIR MENU</button>
+        </a>
+        </div>
+        <img src="img/cafe.jpg">
+    </div>
+</div>
+<div class="controls">
+    <span class="control" onclick="changeSlide(0)"></span>
+    <span class="control" onclick="changeSlide(1)"></span>
+    <span class="control" onclick="changeSlide(2)"></span>
+</div>
+</div>
+</section>
+
+<section class="quienessomos">
+            
+    <div class="titulo-cafe">
+        <div class="divider-4"></div>
+        <h1>Quienes somos</h1>
+        <h2>Te invitamos a visitar nuestra cafetería</h2>
+        <p>Te invitamos a sumergirte en una experiencia única de sabores y aromas. 
+            Encontrarás el lugar perfecto para disfrutar de una taza de café recién hecho, 
+            acompañado de deliciosos bocadillos y postres que deleitarán tu paladar.</p>
+            <a href="contacto.html#local">
+                <button class="btn-cafe">LEER MÁS</button>
+            </a>
+    </div>
+    <div class="titulo-cafe">
+        <img class="img-titulocafe" src="img/moza22.jpg" alt="">
+    </div>
+</section>
+
+<section class="cafe">
+    <div class="txt-menucafe">
+        <img class="img-menucafe" src="img/cafemolido.jpg" alt="">
+    </div>
+    <div class="txt-menucafe">
+            <div class="divider-5"></div>
+            <h1>MENU CAFE</h1>
+            <h2>Te invitamos a ver nuestros menues</h2>
+            <p>Te invitamos a sumergirte en una experiencia única de sabores y aromas. 
+                Encontrarás el lugar perfecto para disfrutar de una taza de café recién hecho, 
+                acompañado de deliciosos bocadillos y postres que deleitarán tu paladar.</p>
+            <a href="menues.html">
+                <button class="btn-menucafe">LEER MÁS</button>
+            </a>
+        </div>
+
+
+</section>
+<section class="section-equipo">
+    <div class="txt-equipo">
+            <div class="divider-6"></div>
+            <h1>NUESTRO EQUIPO</h1>
+            <h2>Usa los consejos y recetas de nuestor barista</h2>
+            <p>"Descubre a nuestro apasionado equipo y sumérgete en el mundo de nuestras 
+                deliciosas recetas"</p>
+                <a href="team.html">
+                    <button class="btn-equipo">CONOZCA AL EQUIPO</button>
+                </a>
+        </div>
+        <div class="txt-equipo">
+            <img class="img-equipo" src="img/moza3.jpg" alt="">
+        </div>
+
+</section>
+
+
+        <div class="eleginos">
+            <div class="txt-eleginos">
+                <div class="divider-eleginos"></div>
+                <h1>FUNCIONES</h1>
+                <h2>¿Por qué la gente nos elige?</h2>
+                <p>"Nuestra cafetería es la elección de muchos porque ofrecemos el mejor café, 
+                    cuidadosamente seleccionado y preparado para deleitar tu paladar en cada sorbo".</p>
+            </div>
+        </div>
+
+        <section class="destacados">
+                <div class="box">
+                    <div class="img-box">
+                    <img src="img/menuu.png" alt="">
+                    </div>
+                    <h2>Menu para todos los gustos</h2>
+                    <p>Ofrecemos un menú para todos los gustos, desde los más clásicos hasta los más aventureros</p>
+                </div>
+                <div class="box">
+                    <div class="img-box">
+                    <img src="img/frijoles.png" alt="">
+                    </div>
+                    <h2>Frijoles siempre de calidad</h2>
+                    <p>Disfruta de nuestra selección de frijoles de la más alta calidad, preparados para deleitar tu paladar</p>
+                </div>
+                <div class="box">
+                    <div class="img-box">
+                    <img class="img-box" src="img/barista.png" alt="">
+                    </div>
+                    <h2>Barista experimentado</h2>
+                    <p>"Nuestros baristas experimentados están listos para crear la experiencia perfecta en cada taza."</p>
+                </div>
+        </section>
+        <section class="horabar">
+            <div class="horario-box">
+              <div class="divider-horarios"></div>
+              <h1>RESERVA</h1>
+              <h2>HORARIOS DE TRABAJO</h2>
+              <p>Nuestros horarios de apertura para cuando desees visitarnos</p>
+              <a href="reservacion.html">
+                  <button class="btn-horarios">RESERVAR UNA MESA</button>
+              </a>
+              <a href="https://wa.me/3450423218">
+                  <button class="btn-horario">CONTACTENOS</button>
+              </a>
+            </div>
+            <div class="img-horarios">
+                <img src="img/cuadro.png" alt="">
+            </div>
+      
+        </section>
+
+        <div class="comentarios">
+            <div class="titulocomentarios">
+                <div class="divider-eleginos"></div>
+                <h1>TESTIMONIOS</h1>
+                <h2>Lo que opinan nuestros visitantes</h2>
+                <p>Nuestros apreciados clientes han compartido sus lindos comentarios sobre nuestra cafetería</p>
+            </div>
+        </div>
+
+    <section class="container-testimonios">
+            <div class="cliente">
+                    <h1>¡El mejor restaurante!</h1>
+                    <p>La cafetería Garden Coffee es simplemente la mejor. Su comida exquisita y el café de calidad son incomparables</p>
+                <div class="img-cliente">
+                    <img src="img/cliente2.webp">
+                    <h1>OSCAR MILAN</h1>
+                </div>
+            </div>
+            <div class="cliente">
+                    <h1>¡Estaba muy delicioso!</h1>
+                    <p>La comida de la cafetería estaba simplemente deliciosa. ¡Una experiencia gastronómica que definitivamente repetiré cuando vuelva!</p>
+                <div class="img-cliente">
+                    <img src="img/cliente1.webp">
+                    <h1>EMMA LOZZA</h1>
+                </div>
+            </div>
+            <div class="cliente">
+                    <h1>¡Estoy encantada!</h1>
+                    <p>¡Me encantó la cafetería! El ambiente, el servicio y, sobre todo, la calidad de los
+                        productos me dejaron completamente satisfecho. ¡Volveré pronto!
+                    </p>
+                <div class="img-cliente">
+                    <img src="img/cliente3.webp">
+                    <h1>VICTORIA FRECKMAN</h1>
+                </div>
+            </div>
+        </section>
+            <div class="boton-testimonios">
+                <a href="team.html">
+                    <button div class="btn-testimonios">MÁS SOBRE NOSOTROS</button>
+                </a>
+            </div>
+
+
+        <div class="divider-p"></div>
+
+        <section>
+            <div class="incremento-redes">
+                <div class="counter-container">
+                    <div class="counter" data-target="12000"></div>
+                    <span>Twitter Followers</span>
+
+                  </div>
+              
+                  <div class="counter-container">
+                    <div class="counter" data-target="5000"></div>
+                    <span>YouTube Subscribers</span>
+
+                  </div>
+              
+                  <div class="counter-container">
+                    <div class="counter" data-target="7500"></div>
+                    <span>Facebook Fans</span>
+
+                  </div>
+            </div>        
+        </section>
+
+     <section class="app">
+
+        <div class="titulo-app">
+                <div class="divider-app"></div>
+                <h1>APLICACION MOVIL</h1>
+                <h2>DESCARGA NUESTRA APLICACION</h2>
+                <p>Estimado cliente, lestá disponible nuestra aplicación de la cafetería para acceder a 
+                   promociones exclusivas, realizar pedidos anticipados y disfrutar de una experiencia aún 
+                   más conveniente y personalizada
+                </p>
+                <div class="botones-aplicacion">
+            <a href="#">
+                <button class="btn-app">APLLE INC</button>
+            </a>
+            <a href="#">
+                <button class="btn-aplicacion">PLAY STORE</button>
+            </a>
+            </div>
+            </div>
+            <div class="img-app">
+                <img src="img/movil.png" alt="">
+            </div>
+        </div>
+
+</section>
+
+        <div class="boletin">
+            <div class="titulo-boletin">
+                <div class="divider-boletin"></div>
+                <h1>BOLETÍN</h1>
+                <h2>Utiliza los consejos y recetas de nuestor barista</h2>
+                <p>Te recomendamos encarecidamente que pruebes las deliciosas recetas elaboradas por nuestro talentoso barista</p>
+            </div>
+        </div>
+
+        <section class="recetas">
+            <div class="pack-receta">
+                <div class="imagen-txt">
+                    <div class="boton-receta">
+                        <button class="btn-postres">POSTRES, ENSALADAS</button>
+                    </div>
+                    <img class="img-1" src="img/bacon.webp">
+                </div>
+                <div class="txt-receta">
+                    <h1>Desayuno de negocios</h1>
+                    <p>Descubre nuestra variedad de desayunos exquisitos. Desde opciones saludables hasta delicias
+                         indulgentes...<a href="menues.html"><button> LEER MÁS</button></a>
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="pack-receta">
+                <div class="imagen-txt">
+                    <div class="boton-receta">
+                        <button>DESIERTOS</button>
+                    </div>
+                    <img class="img-2" src="img/cake.jpg">
+                </div>
+                <div class="txt-receta">
+                    <h1>Pancakes en chocolate</h1>
+                    <p>"¡Prueba nuestros exquisitos panqueques de chocolate! Deliciosamente esponjosos
+                         y llenos de sabor, son la opción perfecta...<a href="menues.html"><button>LEER MÁS</button></a>
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="pack-receta">
+                <div class="imagen-txt">
+                    <div class="boton-receta">
+                        <button>DESIERTOS</button>
+                    </div>
+                    <img class=" img-3" src="img/burguer.jpg">
+                </div>
+                <div class="txt-receta">
+                    <h1 class="h1-receta">Desayuno de negocios</h1>
+                    <p class="p2-receta">Descubre nuestra variedad de desayunos exquisitos. Desde opciones saludables hasta delicias
+                        indulgentes...<a href="menues.html"><button>LEER MÁS</button></a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <br><br><br><br>
+
+        <div class="suscripcion">
+            <div class="divider-suscripcion"></div>
+            <h1 class="titulo-suscripcion">SUSCRIPCION</h1>
+            <h2 class="subtitulo-suscripcion">SUSCRÍBETE A NUESTRO BOLETÍN</h2>
+    <form class="botones-suscripcion" method="POST" action="mailto:codepassweb@hotmail.com">
+        <input type="txt" class="email" placeholder="Ingresa tu correo electronico aquí">
+    <button type="submit" class="btn-submit">SUSCRIBIRME</button>
+  </form>
+  </div>
+  <br><br><br><br>
+
+        <footer>
+            <div class="divider-footer"></div>
+
+            <div class="footer-sesion">
+                <div class="sesion">
+                    <div class="titulo-sesion">
+                        <h1>Sobre nosotros</h1>
+                        <p>Somos una acogedora mini empresa especializada en cafetería y chocolatería. 
+                            ¡Descubre nuestro mundo de sabores y aromas que te cautivarán desde el primer bocado!
+                        </p>
+                        <a href="team.html"><button>LEER MÁS</button></a>
+                    </div>
+                </div>
+                <div class="sesion">
+                    <div class="titulo-sesion">
+                        <h1>Información de contacto</h1>
+                        <p>3412294863</p>
+                        <p>codepassweb@hotmail.com</p>
+                        <p>España</p>
+                        <a href="contacto.html"><button>LEER MÁS</button></a>
+                    </div>
+                </div>
+                <div class="sesion">
+                    <div class="titulo-sesion">
+                        <h1>Galería</h1>
+                    </div>
+                    <div class="img-footer">
+                        <img class="imagen-1" src="img/burguer2.jpg" alt="">
+                        <img class="imagen-2" src="img/pasta.jpg" alt="">
+                        <img class="imagen-3" src="img/burguer.jpg" alt="">
+                    </div>
+                    <a href="menues.html"><button>LEER MÁS</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="divider-final"></div>
+            <div class="copyright">
+                <div class="descripcion">
+                    <p>Maria Luzano &copy; 2022 - Todos los derechos reservados. By CODEPASS</p>
+                </div>
+                <a href="index.html"><button>VOLVER AL PRINCIPIO</button></a>
+            </div>
+        </footer>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banner con efecto ondeado y controles</title>
+  <link rel="stylesheet" href="reservacion.css">
+</head>
+<body>
+
+    <header>
+        <img class="logo-1" src="img/logo.png" alt="" />
+        <div class="menu container">
+    
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+              <img src="img/menu.png" class="menu-icono" alt="" />
+            </label>
+            <nav class="navbar">
+              <div class="menu-1">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menues.html">Menu</a></li>
+                    <li><a href="reservacion.html">Reservacion</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                  </ul>
+              </div>
+    
+            <div class="boton-reservacion">
+                <a href="reservacion.html">
+                    <button class="btn-reservacion">RESERVACION</button>
+                </a>
+            </div>
+            </nav>
+        </div>
+    
+    </header>
+
+<div class="banner">
+    <div class="titulos">
+        <h2 class="titulo">RESERVACION</h2>
+    </div>
+</div>
+
+
+<div class="reservaciones">
+    <div class="titulo-reservacion">
+        <div class="divider-reservacion"></div>
+        <h1>RESERVACION</h1>
+        <h2>Reservar una mesa</h2>
+        <p>Contactenos al 3412294863 o complete el formulario de reservas</p>
+    </div>
+</div>
+<form action="mailto:codepassweb@hotmail.com" method="POST" class="form-contacto"> 
+    <input type="text" name="nombre" placeholder="Nombre">
+    <input type="text" name="email" placeholder="Email">
+    <input type="tel" name="telefono" placeholder="Telefono">|
+    <select name="lenguaje" id="Personas" placeholder="Personas">
+        <option class="center" id="persona" value="persona">Persona</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+        <input type="date" id="date" name="date" placeholder="Fecha">
+        <select name="hora" id="horarios" placeholder="Horarios">
+            <option value="horario" id="horarios">Horario</option>
+            <option value="10">10:00</option>
+            <option value="12">12:00</option>
+            <option value="14">14:00</option>
+            <option value="18">18:00</option>
+            <option value="19">19:00</option>
+            <option value="20">20:30</option>
+            <option value="21">21:00</option>
+            <option value="22">22:00</option>
+            <option value="23">23:00</option>
+        </select>
+
+        <textarea type="text" name="mensaje" placeholder="Mensaje"></textarea>
+        <input type="submit" class="btn-boton" placeholder="Enviar">
+</form>
+
+<div class="contacto">
+    <div class="titulo-contacto">
+        <div class="divider-contacto"></div>
+        <h1>¿QUIERES HACER UNA CONSULTA?</h1>
+        <h2>Contactanos</h2>
+        <p>
+            Contáctanos desde cualquier red. ¡Esperamos tu mensaje!</p>
+    </div>
+</div>
+
+<section class="destacado-contacto">
+    <div class="box">
+        <img class="img-box" src="img/email.png" alt="">
+        <h2>Email</h2>
+        <p>codepassweb@hotmail.com</p>
+    </div>
+    <div class="box">
+        <img class="img-box" src="img/phone.png" alt="">
+        <h2>Telefono</h2>
+        <p>543412294863</p>
+    </div>
+    <div class="box">
+        <img class="img-box" src="img/mapa.png" alt="">
+        <h2>Ubicacion</h2>
+        <p>España</p>
+    </div>
+</section>
+
+<div class="suscripcion">
+    <div class="divider-suscripcion"></div>
+    <h1 class="titulo-suscripcion">SUSCRIPCION</h1>
+    <h2 class="subtitulo-suscripcion">SUSCRÍBETE A NUESTRO BOLETÍN</h2>
+<form class="botones-suscripcion" action="mailto:codepassweb@hotmail.com" method="POST">
+<input type="txt" class="email" placeholder="Ingresa tu correo electronico aquí">
+<button type="submit" class="button-suscripcion">SUSCRIBIRME</button>
+</form>
+</div>
+
+<footer>
+    <div class="divider-footer"></div>
+
+    <div class="footer-sesion">
+        <div class="sesion">
+            <div class="titulo-sesion">
+                <h1>Sobre nosotros</h1>
+                <p>Somos una acogedora mini empresa especializada en cafetería y chocolatería. 
+                    ¡Descubre nuestro mundo de sabores y aromas que te cautivarán desde el primer bocado!
+                </p>
+                <a href="team.html"><button>LEER MÁS</button></a>
+            </div>
+        </div>
+        <div class="sesion">
+            <div class="titulo-sesion">
+                <h1>Información de contacto</h1>
+                <p>3412294863</p>
+                <p>codepassweb@hotmail.com</p>
+                <p>España</p>
+                <a href="contacto.html"><button>LEER MÁS</button></a>
+            </div>
+        </div>
+        <div class="sesion">
+            <div class="titulo-sesion">
+                <h1>Galería</h1>
+            </div>
+            <div class="img-footer">
+                <img class="imagen-1" src="img/burguer2.jpg" alt="">
+                <img class="imagen-2" src="img/pasta.jpg" alt="">
+                <img class="imagen-3" src="img/burguer.jpg" alt="">
+            </div>
+            <a href="menues.html"><button>LEER MÁS</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="divider-final"></div>
+    <div class="copyright">
+        <div class="descripcion">
+            <p>Maria Luzano &copy; 2022 - Todos los derechos reservados. By CODEPASS</p>
+        </div>
+        <a href="reservacion.html"><button>VOLVER AL PRINCIPIO</button></a>
+    </div>
+</footer>
+
+<script src=""></script>
+</body>
+</html>

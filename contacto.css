@@ -1,0 +1,797 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Italiana&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body, html {
+    background-color: #0A1316;
+}
+
+.logo-1 {
+    z-index: 1000;
+    display: flex;
+    position: absolute;
+    width: 15%;
+    margin-top: -3%;
+}
+
+.menu {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    margin-left: 10%;
+}
+
+.navbar {
+    display: flex;
+}
+
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color:#D68240;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.boton-reservacion {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-reservacion {
+    border: none;
+    font-family: 'Italiana';
+    padding: 20px;
+    margin-left: 200%;
+    color: white;
+    cursor: pointer;
+    background-color: #D68240;
+}
+
+.banner {
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner::before {
+    content: '';
+    background-image: url('img/maps.jpg');
+    width: 100%;
+    height: 500px;
+    opacity: 0.4;
+    filter: grayscale(50) invert(92%) contrast(93%);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: absolute;
+}
+
+.titulos {
+    z-index: 1;
+    display: flex;
+    color: white;
+    position: absolute;
+    flex-direction: row;
+    top: 35%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo {
+    font-family: 'Italiana';
+    font-size: clamp(50px, 8vw, 660px);
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.bouncing-icon {
+    position: relative;
+    margin-left: 50%;
+  }
+  
+  .bouncing-icon img {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  
+
+  .divider-contacto {
+    border: 3px solid #D68240;
+    width: 33px;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: -7%;
+    margin-left: 35.5%;
+    margin-bottom: 1.5%;
+}
+
+.contacto {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-left: 18%;
+    margin-bottom: 5%;
+    margin-top: 20%;
+}
+
+.titulo-contacto h1 {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-right: 25%;
+}
+
+.titulo-contacto h2 {
+    font-family: 'Italiana';
+    font-weight: 200;
+    font-size: clamp(37px, 7vw, 60px);
+    width: 75%;
+    margin-top: 2%;
+    line-height: 65px;
+}
+
+.titulo-contacto p {
+    font-family: 'Roboto';
+    font-size: clamp(13px, 2vw, 17px);
+    color: #D3CFC6;
+    width: 75%;
+    line-height: 30px;
+    margin-top: 5%;
+}
+
+
+.destacado-contacto {
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+.img-box {
+    width: 25%;
+    margin-bottom: 7%;
+}
+
+.box h2 {
+    font-family: 'Italiana';
+    font-weight: 100;
+    font-size: 29px;
+    width: 85%;
+    line-height: 65px;
+    letter-spacing: 1px;
+    margin-left: 8%;
+}
+
+.box p {
+    margin-left: 12%;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #D3CFC6;
+    width: 75%;
+    line-height: 30px;
+    margin-top: 3%;
+}
+
+.divider-formulario {
+    border: 3px solid #D68240;
+    width: 33px;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: -7%;
+    margin-left: 35.5%;
+    margin-bottom: 1.5%;
+}
+
+.formulario {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-left: 18%;
+    margin-bottom: 5%;
+    margin-top: 20%;
+}
+
+.titulo-formulario h1 {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-right: 25%;
+}
+
+.titulo-formulario h2 {
+    font-family: 'Italiana';
+    font-weight: 200;
+    font-size: clamp(37px, 7vw, 60px);
+    width: 75%;
+    margin-top: 2%;
+    line-height: 65px;
+}
+
+.titulo-formulario p {
+    font-family: 'Roboto';
+    font-size: clamp(13px, 2vw, 17px);
+    color: #D3CFC6;
+    width: 75%;
+    line-height: 30px;
+    margin-top: 5%;
+}
+
+.form-contacto {
+    margin: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 170px;
+}
+
+.form-contacto input {
+    margin: 13px;
+    width: 630px;
+    height: 50px;
+    background-color: #121A1D;
+    border: none;
+    color: white;
+    padding-left: 15px;
+}
+
+.form-contacto input[type=text] {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+.form-contacto textarea[type=text] {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+::placeholder {
+    background-color: #121A1D;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 18px;
+    width: 70px;
+    margin-left: 1%;
+    position: absolute;
+}
+
+textarea {
+    background-color: #121A1D;
+    border: none;
+    height: 100px;
+    width: 100%;
+    margin: 20px;
+}
+
+textarea::placeholder {
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 1%;
+}
+
+
+.form-contacto input[type=submit] {
+    border: none;
+    font-family: 'Italiana';
+    text-transform: uppercase;
+    padding: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: white;
+    cursor: pointer;
+    background-color: #D68240;
+    font-size: 16px;
+    margin-top: 4%;
+    width: 130px;
+    height: 65px;
+}
+
+.divider-local {
+    border: 3px solid #D68240;
+    width: 33px;
+    border-radius: 5px;
+    align-items: center;
+    position: absolute;
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+}
+
+.section-local {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.txt-local {
+    width: 500px;
+    height: 453px;
+    font-size: 13px;
+    color: white;
+    text-align: left;
+    line-height: 22px;
+    margin: 50px;
+}
+
+
+.txt-local h1 {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: clamp(5px, 3vw, 13px);
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-top: 10%;
+}
+
+.txt-local h2 {
+    font-family: 'Italiana';
+    font-weight: 200;
+    font-size: clamp(15px, 7vw, 60px);
+    margin-top: 2%;
+    line-height: 65px;
+}
+
+.txt-local p {
+    font-family: 'Roboto';
+    font-size: clamp(15px, 8vw, 17px);
+    color: #D3CFC6;
+    line-height: 30px;
+}
+
+.btn-local {
+    border: none;
+    font-family: 'Italiana';
+    padding: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: white;
+    cursor: pointer;
+    background-color: #D68240;
+    margin-top: 7%;
+    font-size: 16px;
+}
+
+.txt-local .img-local {
+    width: 110%;
+    margin-top: 7%;
+}
+
+
+.divider-footer {
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+    width: 98%;
+    border-bottom: 5px dotted #1B2326;
+    margin-bottom: 5%;
+}
+
+.footer-sesion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sesion {
+    text-align: left;
+    display: block;
+    width: 380px;
+    margin: 5px;
+    margin-bottom: 10%;
+}
+
+.sesion h1 {
+    font-size: clamp(28px, 5vw, 32px);
+    color: white;
+    font-family: 'Italiana';
+    font-weight: 500;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.sesion p {
+    font-size: clamp(13px, 2vw, 17px);
+    width: 100%;
+    color:#898986;
+    font-family: 'Roboto';
+    line-height: 30px;
+}
+
+.img-footer {
+    display: flex;
+}
+
+.img-footer img {
+    width: 100px;
+    margin: 13px;
+    height: 98px;
+    border-radius: 5px;
+}
+
+.sesion button {
+    color:#D68240;
+    background-color: transparent;
+    border: none;
+    font-family: 'Italiana';
+    cursor: pointer;
+    margin-top: 10%;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.divider-final {
+    align-items: center;
+    justify-content: center;
+    margin-top: -5%;
+    margin-left: 2%;
+    width: 96%;
+    border-bottom: 5px dotted #1B2326;
+    margin-bottom: 5%;
+}
+
+.copyright {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    position: relative;
+}
+
+.descripcion {
+    width: 70%;
+}
+
+.descripcion p {
+    font-size: clamp(13px, 2vw, 17px);
+    width: 100%;
+    color:#898986;
+    font-family: 'Roboto';
+    line-height: 30px;
+    margin-left: 1%;
+    margin-bottom: 3%;
+}
+
+.copyright button {
+    letter-spacing: 1px;
+    font-size: 15px;
+    color:#D68240;
+    background-color: transparent;
+    border: none;
+    font-family: 'Italiana';
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+
+/* R E S P O N S I V E */
+
+/* TABLET */
+
+@media screen and (max-width: 1300px) {
+    .menu {
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .logo-1 {
+        width: 20%;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: none;
+        background-color: #D68240;
+    }
+
+    .menu-icono {
+        width: 4%;
+        position: absolute;
+        margin-left: 90%;
+    }
+
+    .menu .nabvar ul li {
+        width: 70%;
+    }
+
+
+    #menu:checked ~ .navbar {
+        display: initial;
+        margin-top: 1%;
+        margin-left: 80%;
+        width: 150px;
+    }
+
+    .boton-reservacion {
+        display: none;
+    }
+
+    .titulo {
+        margin-top: 17%;
+    }
+
+    .titulo-sesion {
+        text-align: center;
+    }
+
+
+
+}
+
+@media screen and (max-width:1100px) {
+
+    .menu {
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .logo-1 {
+        width: 20%;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: none;
+        background-color: #D68240;
+    }
+
+    .menu-icono {
+        width: 4%;
+        position: absolute;
+    }
+
+    .menu .nabvar ul li {
+        width: 70%;
+    }
+
+
+    #menu:checked ~ .navbar {
+        display: initial;
+        margin-top: 1%;
+        margin-left: 73%;
+    }
+
+    .boton-reservacion {
+        display: none;
+    }
+
+    .divider-contacto {
+        margin-left: 35%;
+        margin-bottom: 3%;
+    }
+
+    .img-local {
+        margin-left: -5%;
+    }
+
+    .txt-local {
+        text-align: center;
+    }
+
+    .divider-local {
+        left: 48%;
+    }
+
+    .divider-formulario {
+        margin-left: 35%;
+        margin-bottom: 3%;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    .menu {
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .logo-1 {
+        width: 30%;
+        margin-top: -5% ;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: none;
+        background-color: #D68240;
+    }
+
+    .menu-icono {
+        width: 3%;
+        position: absolute;
+        margin-left: 85%;
+    }
+
+    .menu .nabvar ul li {
+        width: 70%;
+    }
+
+
+    #menu:checked ~ .navbar {
+        display: initial;
+        margin-top: 1%;
+        margin-left: 65%;
+    }
+
+    .boton-reservacion {
+        display: none;
+    }
+
+
+    .divider-local {
+        left: 47%;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .logo-1 {
+        width: 40%;
+        margin-top: -5% ;
+    }
+
+    #menu:checked ~ .navbar {
+        margin-left: 54%;
+    }
+
+    .menu-icono {
+        width: 4%;
+        margin-top: 1%;
+        margin-left: 83%;
+    }
+
+
+    .divider-contacto {
+        margin-left: 32%;
+        margin-bottom: 4%;
+    }
+
+    .divider-formulario {
+        margin-left: 33%;
+        margin-bottom: 4%;
+    }
+    .divider-local {
+        left: 45%;
+    }
+
+    .box p {
+        margin-bottom: 20%;
+    }
+
+    .copyright {
+        justify-content: center;
+    }
+
+    .copyright p {
+        text-align: center;
+    }
+
+    .copyright button {
+        margin-bottom: 15%;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width:400px) {
+
+    #menu:checked ~ .navbar {
+        margin-left: 47%;
+    }
+
+    .menu-icono {
+        margin-left: 83%;
+    }
+
+    .titulo {
+        margin-top: 40%;
+    }
+
+    .contacto {
+        margin-top: 28%;
+    }
+
+    .txt-local .img-local {
+        margin-top: -15%;
+    }
+
+    footer {
+        margin-top: -27%;
+    }
+
+    .img-footer {
+        margin-left: 0%;
+    }
+    
+    .titulo-sesion p {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+
+}
+
