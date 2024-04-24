@@ -179,7 +179,7 @@ body, html {
 
 .titulo-contacto p {
     font-family: 'Roboto';
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     color: #D3CFC6;
     width: 75%;
     line-height: 30px;
@@ -216,7 +216,7 @@ body, html {
 .box p {
     margin-left: 12%;
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: clamp(15px, 8vw, 17px);
     color: #D3CFC6;
     width: 75%;
     line-height: 30px;
@@ -263,7 +263,7 @@ body, html {
 
 .titulo-formulario p {
     font-family: 'Roboto';
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     color: #D3CFC6;
     width: 75%;
     line-height: 30px;
@@ -294,13 +294,13 @@ body, html {
 .form-contacto input[type=text] {
     color: white;
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: clamp(15px, 8vw, 17px);
 }
 
 .form-contacto textarea[type=text] {
     color: white;
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: clamp(15px, 8vw, 17px);
 }
 
 ::placeholder {
@@ -338,7 +338,7 @@ textarea::placeholder {
     color: white;
     cursor: pointer;
     background-color: #D68240;
-    font-size: 16px;
+    font-size: clamp(15px, 8vw, 17px);
     margin-top: 4%;
     width: 130px;
     height: 65px;
@@ -366,7 +366,7 @@ textarea::placeholder {
 .txt-local {
     width: 500px;
     height: 453px;
-    font-size: 13px;
+    font-size: clamp(15px, 8vw, 17px);
     color: white;
     text-align: left;
     line-height: 22px;
@@ -408,7 +408,7 @@ textarea::placeholder {
     cursor: pointer;
     background-color: #D68240;
     margin-top: 7%;
-    font-size: 16px;
+    font-size: clamp(15px, 8vw, 17px);
 }
 
 .txt-local .img-local {
@@ -452,7 +452,7 @@ textarea::placeholder {
 }
 
 .sesion p {
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 100%;
     color:#898986;
     font-family: 'Roboto';
@@ -478,7 +478,7 @@ textarea::placeholder {
     cursor: pointer;
     margin-top: 10%;
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: clamp(15px, 8vw, 17px);
 }
 
 .divider-final {
@@ -503,7 +503,7 @@ textarea::placeholder {
 }
 
 .descripcion p {
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 100%;
     color:#898986;
     font-family: 'Roboto';
@@ -514,7 +514,7 @@ textarea::placeholder {
 
 .copyright button {
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: clamp(15px, 8vw, 17px);
     color:#D68240;
     background-color: transparent;
     border: none;

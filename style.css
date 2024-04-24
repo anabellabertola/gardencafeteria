@@ -501,7 +501,7 @@ body, html {
 
 .txt-eleginos p {
     font-family: 'Roboto';
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     color: #D3CFC6;
     width: 75%;
     line-height: 30px;
@@ -538,7 +538,7 @@ body, html {
 }
 
 .box p {
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 100%;
     color:white;
     font-family: 'Roboto';
@@ -611,7 +611,7 @@ body, html {
 
 .horario-box p {
     font-family: 'Roboto';
-    font-size: clamp(15px, 3vw, 18px);
+    font-size: clamp(15px, 8vw, 17px);
     color: #D3CFC6;
     line-height: 30px;
     margin-left: 5%;
@@ -700,7 +700,7 @@ body, html {
 
 .titulocomentarios p {
     font-family: 'Roboto';
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     color: #D3CFC6;
     width: 75%;
     line-height: 30px;
@@ -882,7 +882,7 @@ body, html {
 
 .titulo-app p {
     font-family: 'Roboto';
-    font-size: clamp(15px, 3vw, 18px);
+    font-size: clamp(15px, 8vw, 17px);
     color: #D3CFC6;
     width: 75%;
     line-height: 30px;
@@ -976,7 +976,7 @@ body, html {
 
 .titulo-boletin p {
     font-family: 'Roboto';
-    font-size: clamp(15px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     color: #D3CFC6;
     width: 75%;
     line-height: 30px;
@@ -1035,7 +1035,7 @@ body, html {
 }
 
 .txt-receta p {
-    font-size: clamp(13px, 2vw, 18px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 100%;
     color:#898986;
     font-family: 'Roboto';
@@ -1201,7 +1201,7 @@ body, html {
 }
 
 .sesion p {
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 100%;
     color:#898986;
     font-family: 'Roboto';

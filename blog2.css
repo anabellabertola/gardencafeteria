@@ -163,7 +163,7 @@ body, html {
 
 .titulo-publicacion p {
     font-family: 'Roboto';
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     color: #D3CFC6;
     width: 75%;
     line-height: 30px;
@@ -223,7 +223,7 @@ body, html {
 }
 
 .txt-receta p {
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 100%;
     color:#898986;
     font-family: 'Roboto';
@@ -340,7 +340,7 @@ button:focus {
 
 .titulo-formulario p {
     font-family: 'Roboto';
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     color: #D3CFC6;
     width: 75%;
     line-height: 30px;
@@ -454,7 +454,7 @@ textarea::placeholder {
 }
 
 .sesion p {
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 100%;
     color:#898986;
     font-family: 'Roboto';
@@ -505,7 +505,7 @@ textarea::placeholder {
 }
 
 .descripcion p {
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 100%;
     color:#898986;
     font-family: 'Roboto';
