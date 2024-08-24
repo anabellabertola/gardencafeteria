@@ -163,7 +163,7 @@ body, html {
 
 .titulo-reservacion p {
     font-family: 'Roboto';
-    font-size: clamp(13px, 2vw, 18px);
+    font-size: clamp(15px, 8vw, 17px);
     color: #D3CFC6;
     width: 75%;
     line-height: 30px;
@@ -193,13 +193,13 @@ body, html {
 .form-contacto input[type=text] {
     color: white;
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: clamp(15px, 8vw, 17px);
 }
 
 .form-contacto textarea[type=text] {
     color: white;
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: clamp(15px, 8vw, 17px);
 }
 
 .form-contacto textarea {
@@ -211,7 +211,7 @@ body, html {
     background-color: #2f383b;
     color: white;
     font-family: 'Roboto';
-    font-size: clamp(13px, 2vw, 18px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 70px;
     margin-left: 5%;
     position: absolute;
@@ -220,7 +220,7 @@ body, html {
 #Personas {
     width: 420px;
     height: 50px;
-    font-size: 18px;
+    font-size: clamp(15px, 8vw, 17px);
     padding-left: 15px;
 }
 
@@ -229,7 +229,7 @@ body, html {
 }
 
 #horarios {
-    font-size: 18px;
+    font-size: clamp(15px, 8vw, 17px);
     width: 420px;
     height: 50px;
     padding-left: 15px;
@@ -271,7 +271,7 @@ form select {
     color: white;
     cursor: pointer;
     background-color: #D68240;
-    font-size: 16px;
+    font-size: clamp(15px, 8vw, 17px);
     margin-top: 4%;
     width: 130px;
     height: 65px;
@@ -318,7 +318,7 @@ form select {
 
 .titulo-contacto p {
     font-family: 'Roboto';
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     color: #D3CFC6;
     width: 75%;
     line-height: 30px;
@@ -354,7 +354,7 @@ form select {
 .box p {
     margin-left: 12%;
     font-family: 'Roboto';
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     color: #D3CFC6;
     width: 75%;
     line-height: 30px;
@@ -421,7 +421,7 @@ form select {
     width: 500px;
     background-color: #121A1D;
     padding: 10px;
-    font-size: 18px;
+    font-size: clamp(15px, 8vw, 17px);
     height: 48px;
     border: none
 }
@@ -489,7 +489,7 @@ form select {
 }
 
 .sesion p {
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 100%;
     color:#898986;
     font-family: 'Roboto';
@@ -540,7 +540,7 @@ form select {
 }
 
 .descripcion p {
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 100%;
     color:#898986;
     font-family: 'Roboto';
@@ -611,7 +611,7 @@ form select {
     }
 
     .titulo {
-        margin-top: 15%;
+        margin-top: 25%;
     }
 
     .contacto {

@@ -43,7 +43,7 @@ body, html {
 }
 
 .menu .navbar ul li a {
-    font-size: 18px;
+    font-size: clamp(15px, 8vw, 17px);
     padding: 20px;
     color: white;
     display: block;
@@ -162,7 +162,7 @@ body, html {
 
 .txt-equipo p {
     font-family: 'Roboto';
-    font-size: clamp(15px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     color: #D3CFC6;
     width: 75%;
     line-height: 30px;
@@ -216,7 +216,7 @@ body, html {
 }
 
 .txt-barista p {
-    font-size: clamp(13px, 2vw, 18px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 100%;
     color:#898986;
     font-family: 'Roboto';
@@ -270,7 +270,7 @@ body, html {
 
 .titulocomentarios p {
     font-family: 'Roboto';
-    font-size: clamp(15px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     color: #D3CFC6;
     width: 75%;
     line-height: 30px;
@@ -309,7 +309,7 @@ body, html {
 }
 
 .cliente p {
-    font-size: clamp(13px, 2vw, 18px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 100%;
     color:#5C615E;
     font-family: 'Roboto';
@@ -415,7 +415,7 @@ body, html {
 
 .horario-box p {
     font-family: 'Roboto';
-    font-size: clamp(15px, 3vw, 18px);
+    font-size: clamp(15px, 8vw, 17px);
     color: #D3CFC6;
     line-height: 30px;
     margin-left: 5%;
@@ -498,7 +498,7 @@ body, html {
 }
 
 .sesion p {
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 100%;
     color:#898986;
     font-family: 'Roboto';
@@ -549,7 +549,7 @@ body, html {
 }
 
 .descripcion p {
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 100%;
     color:#898986;
     font-family: 'Roboto';

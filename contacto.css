@@ -514,7 +514,7 @@ textarea::placeholder {
 
 .copyright button {
     letter-spacing: 1px;
-    font-size: clamp(15px, 8vw, 17px);
+    font-size: 15px;
     color:#D68240;
     background-color: transparent;
     border: none;

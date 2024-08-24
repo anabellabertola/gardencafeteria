@@ -16,7 +16,7 @@ body, html {
     z-index: 1000;
     display: flex;
     position: absolute;
-    width: 15%;
+    width: 200px;
     margin-top: -3%;
 }
 
@@ -43,7 +43,7 @@ body, html {
 }
 
 .menu .navbar ul li a {
-    font-size: 18px;
+    font-size: clamp(15px, 8vw, 17px);
     padding: 20px;
     color: white;
     display: block;
@@ -110,8 +110,8 @@ body, html {
     color: white;
     position: absolute;
     flex-direction: row;
-    top: 35%;
-    left: 60%;
+    top: 40%;
+    left: 65%;
     transform: translate(-50%, -50%);
 }
 
@@ -164,7 +164,7 @@ body, html {
 
 .txt-menues p {
     font-family: 'Roboto';
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     color: #D3CFC6;
     width: 75%;
     line-height: 30px;
@@ -263,7 +263,7 @@ body, html {
 .oracion-bebida {
     color: #898986;
     font-family: 'Roboto';
-    font-size: clamp(13px, 3vw, 18px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 60%;
     margin-left: 27%;
     margin-top: -14%;
@@ -412,7 +412,7 @@ body, html {
 
 .titulo-destacado p {
     font-family: 'Roboto';
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     color: #D3CFC6;
     width: 75%;
     line-height: 30px;
@@ -464,7 +464,7 @@ body, html {
 }
 
 .txt-destacado p {
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 100%;
     color:#898986;
     font-family: 'Roboto';
@@ -512,7 +512,7 @@ body, html {
 }
 
 .sesion p {
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 100%;
     color:#898986;
     font-family: 'Roboto';
@@ -563,7 +563,7 @@ body, html {
 }
 
 .descripcion p {
-    font-size: clamp(13px, 2vw, 17px);
+    font-size: clamp(15px, 8vw, 17px);
     width: 100%;
     color:#898986;
     font-family: 'Roboto';
@@ -594,9 +594,7 @@ body, html {
         justify-content: space-between;
     }
 
-    .logo-1 {
-        width: 20%;
-    }
+
 
     .menu label {
         display: initial;
@@ -645,9 +643,7 @@ body, html {
         justify-content: space-between;
     }
 
-    .logo-1 {
-        width: 20%;
-    }
+
 
     .menu label {
         display: initial;
@@ -734,10 +730,7 @@ body, html {
         justify-content: space-between;
     }
 
-    .logo-1 {
-        width: 30%;
-        margin-top: -5% ;
-    }
+
 
     .menu label {
         display: initial;
@@ -771,6 +764,12 @@ body, html {
     .boton-reservacion {
         display: none;
     }
+
+    .titulo {
+        margin-right: 40%;
+        margin-top: 20%;
+    }
+
 
     .carta-menu {
         margin-top: 30%;
@@ -823,10 +822,7 @@ body, html {
 }
 
 @media screen and (max-width:600px) {
-    .logo-1 {
-        width: 40%;
-        margin-top: -5% ;
-    }
+
 
 
     #menu:checked ~ .navbar {
@@ -837,11 +833,6 @@ body, html {
         width: 4%;
         margin-top: 1%;
         margin-left: 83%;
-    }
-
-    .titulo {
-        margin-right: 23%;
-        margin-top: 23%;
     }
 
     .divider-menues {
@@ -893,6 +884,11 @@ body, html {
 
     .txt-bebida .precio-10 {
         margin-left: 153%;
+    }
+
+    .titulo {
+        margin-right: 40%;
+        margin-top: 20%;
     }
 
     .divider-reservacion {
